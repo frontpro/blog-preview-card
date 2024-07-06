@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Figtree-blod';
+    /* Name your font family */
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf');
+    /* Locate the .ttf file within your directory*/
+}
+
+@font-face {
+    font-family: "Figtree";
+    /* Name your font family */
+    src: url('./assets/fonts/static/Figtree-SemiBold.ttf');
+    /* Locate the .ttf file within your directory*/
+}
+
+body {
+    font-family: 'Figtree-blod';
+    /* Use the font family */
+}
+
+.container {
+    background-color: #F4D04E;
+    height: 100vh;
+    display: grid;
+}
+
+.blog--card {
+    place-self: center;
+    background-color: #FFFFFF;
+    width: 279px;
+    border-radius: 20px;
+    box-shadow: 8px 8px #000000;
+    padding: 24px;
+    border: 1px solid #000000;
+}
+
+.blog--card--img {
+    background: url("./assets/images/illustration-article.svg") 50% 50%;
+    width: 279px;
+    height: 200px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+
+.blog--img {
+    width: 279px;
+}
+
+.content {
+    margin-bottom: 24px;
+    font-family: "Figtree";
+}
+
+.tags {
+    margin-bottom: 14px;
+}
+
+.tag {
+    font-family: 'Figtree-blod';
+    background-color: #F4D04E;
+    color: #000000;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.date {
+    font-family: "Figtree";
+    margin-bottom: 14px;
+    font-size: 12px;
+}
+
+.content--head h3 {
+    font-family: 'Figtree-blod';
+    margin-bottom: 14px;
+    font-size: 20px;
+}
+
+.content--head h3:hover {
+    cursor: pointer;
+    color: #F4D04E;
+}
+
+.content--body p {
+    margin-bottom: 24px;
+    color: #7F7F7F;
+    font-size: 15px;
+    line-height: 1.2rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 32px;
+    padding-right: 10px;
+}
+
+.author h5 {
+    font-size: 14px;
+    font-family: 'Figtree-blod';
+}
+
+/* @media (min-width: 769px) {
+    .blog--card {
+        width: 384px;
+    }
+
+    .blog--card--img {
+        width: 384px;
+        background: url("./assets/images/illustration-article.svg") no-repeat center/100%;
+    }
+
+    .tag {
+        font-size: 14px;
+    }
+
+    .date {
+        font-size: 14px;
+    }
+
+    .content--head h3 {
+        font-size: 24px;
+    }
+
+    .content--body p {
+        font-size: 16px;
+    }
+
+    .author h5 {
+        font-size: 16px;
+    }
+} */
